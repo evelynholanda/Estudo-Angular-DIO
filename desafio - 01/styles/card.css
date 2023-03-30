@@ -1,0 +1,46 @@
+*{  /*zerando*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.card{
+    width: 60%; /* tamanho*/
+    /*border: 1px solid gray; /*p visualizar tamanho ideal da caixa*/
+    box-shadow: 0px -1px 27px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 27px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 27px 0px rgba(0,0,0,0.75);
+    display: flex; /*p ficar um do lado do outro*/
+    flex-direction: row; /* p ficar em linha, se colocar colun fica um em baixo do outro*/ 
+    justify-content: space-between; /* especo entre as noticias*/
+
+}
+
+.card_left{
+   display: flex;
+   flex-direction: column; /* se colocar row fica tudo em linha*/
+   justify-content: center; /* p deixar no centro*/
+   padding-left: 10px; /* espaçada na margem esquerda*/
+
+
+}
+
+.card_left > span {
+    font-weight: 400; /* dar uma diferenciada na fornte*/
+
+}
+
+
+.card_left > a { /* acessando o h1 que esta dentro do car_left*/
+    margin-top: 15px; /* separar- deixar espaçamento entre os textos*/
+    font-size: 30px;
+    color:black; /* tirar efeito do link*/
+    text-decoration: none; /* tirar sublinhado*/
+    font-weight: bold;
+}
+
+.card_left > p {
+    color: rgb(141, 138, 138);
+
+}
